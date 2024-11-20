@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'DetailScreen.dart';
-import 'DetailScreenLatihan.dart';
 
 void main() => runApp(const MyApp());
 
