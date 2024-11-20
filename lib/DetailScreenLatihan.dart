@@ -58,7 +58,24 @@ class Detailscreenlatihan extends StatelessWidget{
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16.0),
               ),
-            )
+            ),  
+            ElevatedButton(
+              child: const Text('Press'),
+              onPressed: () {}, 
+              ),
+            TextButton( 
+              child: const Text('Pencet'),
+              onPressed: () {},
+              ),
+            OutlinedButton(
+              child: const Text('Sentuh'),
+              onPressed: () {},
+              ),
+            IconButton(
+              icon: const Icon(Icons.volume_up),
+              tooltip: 'Incerease volume by 10',
+              onPressed: () {},
+              ),
           ],
         ),
       ),

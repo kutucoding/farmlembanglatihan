@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: "Wisata Bandung",
       theme: ThemeData(
       ),
-      home: const Detailscreenlatihan(),
+      home: const Detailscreen(),
     );
   }
 }
